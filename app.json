@@ -6,10 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "packagerOpts":{
-    "sourceExts": [ "js", "json", "ts", "tsx", "jsx", "vue"],
-    "config":"metro.config.js"
-    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -24,7 +20,9 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "assetBundlePatterns": ["**/*"],
     "web": {
+      
       "favicon": "./assets/favicon.png"
     },
     "experiments": {
